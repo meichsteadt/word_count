@@ -1,0 +1,67 @@
+body {
+  font-family: monospace;
+  font-size: 2em;
+  background: url('../img/generic-bg.jpg') no-repeat;
+  background-size: cover;
+  font-family: 'Raleway', sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
+  min-height: 1260px;
+}
+
+a {
+  color: #000;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.jumbotron {
+  background-color: transparent;
+}
+
+.jumbotron h1 {
+  display: inline;
+}
+
+.shadow {
+  box-shadow: 2px 2px 4px rgba(0,0,0,.5);
+}
+
+.form-control {
+  font-size: 22px;
+}
+
+.checkbox input[type=checkbox]{
+  transform: translate(0, 20%);
+}
+
+.results {
+  margin: 20px 0;
+}
+
+.typed-cursor{
+  opacity: 1;
+  -webkit-animation: blink 1s infinite;
+  -moz-animation: blink 1s infinite;
+  animation: blink 1s infinite;
+  display: inline-block;
+  font-size: 48px;
+}
+
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
