@@ -15,7 +15,7 @@ describe('the word_count path', {:type => :feature}) do
     visit('/')
     fill_in('sentence', :with => 'Williamsburg cray paleo paleopop-up listicle')
     fill_in('search_word', :with => "paleo")
-     check('check[]')
+    check('check[]')
     click_button('Submit')
     expect(page).to have_content('paleo appears 1 times in Williamsburg cray paleo paleopop-up listicle')
   end

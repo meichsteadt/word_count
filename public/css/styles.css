@@ -37,8 +37,12 @@ a {
   transform: translate(0, 20%);
 }
 
-.results {
-  margin: 20px 0;
+.results, .results>* {
+  margin: 30px 0;
+}
+
+.justify {
+  text-align: justify;
 }
 
 .typed-cursor{
