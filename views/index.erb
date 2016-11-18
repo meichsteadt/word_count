@@ -1,0 +1,14 @@
+<form action='/word_count'>
+  <div class='form-group'>
+    <input id='search_word' name='search_word' class='form-control' type='text' placeholder="Word to search for" required>
+  </div>
+  <div class='form-group'>
+    <textarea rows='8' id='sentence' name='sentence' class='form-control' type='text' placeholder="Words to search through" required></textarea>
+  </div>
+  <div class="checkbox">
+    <label>
+      <input name="check[]" class="checkbox" type="checkbox"> Use strict mode?
+    </label>
+  </div>
+  <button type='submit' id="submit" class='btn btn-default'>Submit</button>
+</form>
